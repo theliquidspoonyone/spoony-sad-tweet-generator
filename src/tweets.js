@@ -41,7 +41,7 @@ export const phraseTuples = [
       "force myself to live",
       "muster the strength to livestream",
       "remember the good times",
-      "fake a smile anymore",
+      "fake a smile",
       "be helped by anyone",
       "entertain people",
       "think of anything",
@@ -58,7 +58,7 @@ export const phraseTuples = [
       "is left inside me",
       "has improved",
       "good is coming my way",
-      "matters anymore",
+      "matters any longer",
       "but despair for me",
       "is funny anymore",
       "works for me"
