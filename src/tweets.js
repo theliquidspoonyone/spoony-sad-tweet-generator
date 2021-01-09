@@ -78,7 +78,7 @@ const phraseTuples = [
 ];
 
 const TWEET_STRUCTURE =
-  "${0} and ${1} because ${2}. ${3}. ${4}. That sounds like fun too.";
+  "${0} and ${1} because ${2}. ${3}, ${4}. That sounds like fun.";
 
 function getRandomIntBetween(min, max) {
   const ceiledMin = Math.ceil(min);
