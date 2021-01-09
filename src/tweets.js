@@ -5,7 +5,7 @@ export const OG_TWEET =
 
 export const phraseTuples = [
   [
-    "All I feel anymore is",
+    "All I feel now is",
     [
       "despair",
       "sadness",
