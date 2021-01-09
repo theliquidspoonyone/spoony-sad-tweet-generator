@@ -13,9 +13,13 @@ export default function App() {
     <div className="App">
       <h1>Spoony Sad Tweet Generator</h1>
       <Tweet content={tweetContent} />
-      <div style={{ marginTop: "20px" }}>
+      <p style={{ marginTop: "20px", fontSize: ".8rem" }}>
+        Generate your very own Spoony tweet and share the sadness with the whole
+        world!
+      </p>
+      <div style={{ marginTop: "10px", textAlign: "center" }}>
         <button onClick={handleClick} className="new-tweet-button">
-          Click to generate your own doomlicious Spoony Tweet!
+          Generate Tweet
         </button>
       </div>
       <div style={{ marginTop: "20px", fontSize: ".8rem" }}>
