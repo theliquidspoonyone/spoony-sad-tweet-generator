@@ -36,7 +36,7 @@ const phraseTuples = [
     [
       "do anything anymore",
       "force myself to live",
-      "muster the strength to livestream",
+      "muster the courage to livestream",
       "remember the good times",
       "fake a smile",
       "be helped by anyone",
