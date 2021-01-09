@@ -1,6 +1,7 @@
 {
   "name": "spoony-sad-tweet-generator",
   "version": "1.0.0",
+  "homepage": "https://theliquidspoonyone.github.com/spoony-sad-tweet-generator/",
   "description": "Make your own Spoony Sad  Tweet with one easy step and maybe you will understand. Or maybe you wouldn't. ",
   "keywords": [],
   "main": "src/index.js",
@@ -17,12 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
