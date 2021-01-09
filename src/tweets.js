@@ -1,9 +1,6 @@
 import _shuffle from "lodash/shuffle";
 
-export const OG_TWEET =
-  "Reckon I'll just sit in the darkness and regret my every life decision in no particular order. That sounds like fun too.";
-
-export const phraseTuples = [
+const phraseTuples = [
   [
     "All I feel now is",
     [
@@ -80,7 +77,7 @@ export const phraseTuples = [
   ]
 ];
 
-export const TWEET_STRUCTURE =
+const TWEET_STRUCTURE =
   "${0} and ${1} because ${2}. ${3}. ${4}. That sounds like fun too.";
 
 function getRandomIntBetween(min, max) {
@@ -107,3 +104,6 @@ export function generateTweet() {
     return p1 + p2.toLowerCase() + p3;
   });
 }
+
+export const OG_TWEET =
+  "Reckon I'll just sit in the darkness and regret my every life decision in no particular order. That sounds like fun too.";
