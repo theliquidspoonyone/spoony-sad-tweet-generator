@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "737fa5810a72a2acbb4171ca745c1ea9",
+    "revision": "643128a25b1c06991c81f3275d66b889",
     "url": "/spoony-sad-tweet-generator/index.html"
   },
   {
-    "revision": "f877158725285053503f",
-    "url": "/spoony-sad-tweet-generator/static/css/main.1b9d9a77.chunk.css"
+    "revision": "6445e8963917679b4471",
+    "url": "/spoony-sad-tweet-generator/static/css/main.6271a61f.chunk.css"
   },
   {
     "revision": "76c0391edb561f98675f",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f877158725285053503f",
+    "revision": "6445e8963917679b4471",
     "url": "/spoony-sad-tweet-generator/static/js/main.e8e66256.chunk.js"
   },
   {

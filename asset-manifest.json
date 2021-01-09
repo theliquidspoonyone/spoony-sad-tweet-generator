@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spoony-sad-tweet-generator/static/css/main.1b9d9a77.chunk.css",
+    "main.css": "/spoony-sad-tweet-generator/static/css/main.6271a61f.chunk.css",
     "main.js": "/spoony-sad-tweet-generator/static/js/main.e8e66256.chunk.js",
     "main.js.map": "/spoony-sad-tweet-generator/static/js/main.e8e66256.chunk.js.map",
     "runtime-main.js": "/spoony-sad-tweet-generator/static/js/runtime-main.d20b79b4.js",
@@ -8,15 +8,15 @@
     "static/js/2.5eb106fd.chunk.js": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js",
     "static/js/2.5eb106fd.chunk.js.map": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js.map",
     "index.html": "/spoony-sad-tweet-generator/index.html",
-    "precache-manifest.84c57a49a9ed94e5201f18d39c9fbf51.js": "/spoony-sad-tweet-generator/precache-manifest.84c57a49a9ed94e5201f18d39c9fbf51.js",
+    "precache-manifest.8b580234d367fa3f020ab0fbe85f4cc8.js": "/spoony-sad-tweet-generator/precache-manifest.8b580234d367fa3f020ab0fbe85f4cc8.js",
     "service-worker.js": "/spoony-sad-tweet-generator/service-worker.js",
-    "static/css/main.1b9d9a77.chunk.css.map": "/spoony-sad-tweet-generator/static/css/main.1b9d9a77.chunk.css.map",
+    "static/css/main.6271a61f.chunk.css.map": "/spoony-sad-tweet-generator/static/css/main.6271a61f.chunk.css.map",
     "static/js/2.5eb106fd.chunk.js.LICENSE.txt": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d20b79b4.js",
     "static/js/2.5eb106fd.chunk.js",
-    "static/css/main.1b9d9a77.chunk.css",
+    "static/css/main.6271a61f.chunk.css",
     "static/js/main.e8e66256.chunk.js"
   ]
 }
