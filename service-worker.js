@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spoony-sad-tweet-generator/precache-manifest.23554ef4f35dc8da0b393bbcbdd2d6c5.js"
+  "/spoony-sad-tweet-generator/precache-manifest.84c57a49a9ed94e5201f18d39c9fbf51.js"
 );
 
 self.addEventListener('message', (event) => {
