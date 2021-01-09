@@ -144,7 +144,7 @@ function Tweet(props) {
               rel=" noopener noreferrer"
             >
               <span className="css-901oao css-16my406 r-1qd0xha r-ad9z0x r-bcqeeo r-qvutc0">
-                {getRandomIntBetween(1, 13)}:{getRandomIntBetween(10, 60)} AM ·{" "}
+                {getRandomIntBetween(1, 12)}:{getRandomIntBetween(10, 60)} AM ·{" "}
                 {new Intl.DateTimeFormat("en-US", { month: "long" }).format()}{" "}
                 {DATE.getDate()}, {DATE.getFullYear()}
               </span>
