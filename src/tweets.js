@@ -1,4 +1,5 @@
 import _shuffle from "lodash/shuffle";
+import { getRandomIntBetween } from './utils';
 
 const phraseTuples = [
   [
@@ -79,13 +80,6 @@ const phraseTuples = [
 
 const TWEET_STRUCTURE =
   "${0} and ${1} because ${2}. ${3}, ${4}. That sounds like fun.";
-
-function getRandomIntBetween(min, max) {
-  const ceiledMin = Math.ceil(min);
-  const flooredMax = Math.floor(max);
-  //The maximum is exclusive and the minimum is inclusive
-  return Math.floor(Math.random() * (flooredMax - ceiledMin) + ceiledMin);
-}
 
 export function generateTweet() {
   const regex = /([^\.] )([A-Z])(\w)/g;
