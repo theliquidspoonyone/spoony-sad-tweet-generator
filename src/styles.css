@@ -1,0 +1,362 @@
+html {
+  font: 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #bcfff9;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-tweet-button {
+  cursor: pointer;
+  padding: 15px 20px;
+  background-color: #fdff94;
+  border: 1px solid #b0a559;
+  border-radius: 4px;
+  color: #483519;
+  font-size: 1rem;
+  transition-property: background-color, color, border;
+  transition-duration: 0.2s;
+}
+
+.new-tweet-button:hover {
+  background-color: #c4ff94;
+  border: 1px solid #59b060;
+  color: #1b4819;
+}
+
+figure {
+  padding: 25px 50px;
+  margin: 0;
+  border: 1px solid rgb(173, 173, 173);
+  background: whitesmoke;
+  border-radius: 3px;
+  max-width: 350px;
+}
+
+blockquote {
+  margin: 0;
+  position: relative;
+}
+
+blockquote p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+blockquote p::before {
+  color: rgb(139, 139, 139);
+  content: "\201E";
+  font-size: 5rem;
+  position: absolute;
+  left: -30px;
+  bottom: -10px;
+}
+
+blockquote p::after {
+  color: rgb(139, 139, 139);
+  content: "\201C";
+  font-size: 5rem;
+  position: absolute;
+  right: -30px;
+  top: -20px;
+}
+
+/* Thang god for atomic CSS */
+
+.css-1dbjc4n {
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  align-items: stretch;
+  border: 0px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+.css-901oao {
+  border: 0px solid black;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: inline;
+  font: 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.css-4rbku5 {
+  background-color: rgba(0, 0, 0, 0);
+  color: inherit;
+  font: inherit;
+  list-style: none;
+  margin: 0px;
+  text-align: inherit;
+  text-decoration: none;
+}
+
+.r-y54riw {
+  min-width: 250px;
+}
+.r-vakc41 {
+  max-width: 550px;
+}
+.r-1udh08x {
+  overflow: hidden;
+}
+.r-rs99b7 {
+  border-width: 1px;
+}
+.r-1ylenci {
+  border-radius: 15px;
+}
+.r-9x6qib {
+  border-color: rgb(204, 214, 221);
+}
+
+.r-1ny4l3l {
+  outline-style: none;
+}
+
+.r-6416eg {
+  transition-property: background-color, box-shadow;
+}
+.r-o7ynqc {
+  transition-duration: 0.2s;
+}
+.r-m611by {
+  padding-top: 10px;
+}
+.r-ry3cjt {
+  padding-right: 15px;
+}
+.r-1yt7n81 {
+  padding-left: 15px;
+}
+.r-1inuy60 {
+  padding-bottom: 5px;
+}
+.r-14lw9ot {
+  background-color: rgb(255, 255, 255);
+}
+
+.r-1mi0q7o {
+  padding-bottom: 10px;
+}
+
+.r-18u37iz {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  flex-direction: row;
+}
+
+.r-1bymd8e {
+  margin-top: 2px;
+}
+.r-1awozwy {
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.r-glunga {
+  padding-top: 5px;
+}
+
+.r-1g94qm0 {
+  margin-top: 5px;
+}
+.r-5kkj8d {
+  border-top-width: 1px;
+}
+.r-1habvwh {
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+.r-1loqt21 {
+  cursor: pointer;
+}
+
+.r-92ng3h {
+  width: 1px;
+}
+.r-u8s1d {
+  position: absolute;
+}
+.r-109y4c4 {
+  height: 1px;
+}
+.r-1niwhzg {
+  background-color: rgba(0, 0, 0, 0);
+}
+.r-t60dpp {
+  padding: 0px;
+}
+.r-1yadl64 {
+  border-width: 0px;
+}
+
+.r-r6l3g7 {
+  width: 46px;
+}
+
+.r-195d4m8 {
+  height: 46px;
+}
+
+.r-sdzlij {
+  border-radius: 9999px;
+}
+
+.r-1kh6xel {
+  max-width: calc(100% - 84px);
+}
+
+.r-1777fci {
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.r-eqz5dr {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+}
+
+.r-5f2r5o {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.r-1jj8364 {
+  margin-left: auto;
+}
+
+.r-1b6yd1w {
+  font-size: 19px;
+}
+
+.r-1dqbpge {
+  cursor: text;
+}
+
+.r-bnwqim {
+  position: relative;
+}
+
+.r-16dba41 {
+  font-weight: 400;
+}
+
+.r-hkyrab {
+  color: rgb(20, 23, 26);
+}
+
+.r-1qd0xha {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.r-qvutc0 {
+  overflow-wrap: break-word;
+}
+
+.r-bcqeeo {
+  min-width: 0px;
+}
+
+.css-16my406 {
+  color: inherit;
+  font: inherit;
+  white-space: inherit;
+}
+
+.r-1bymd8e {
+  margin-top: 2px;
+}
+
+.r-a023e6 {
+  font-size: 15px;
+}
+
+.r-1re7ezh {
+  color: rgb(101, 119, 134);
+}
+
+.r-199wky7 {
+  width: 30px;
+}
+.r-1g7fiml {
+  height: 30px;
+}
+.r-17uwdlj {
+  margin-right: -5px;
+}
+
+.r-lrvibr {
+  user-select: none;
+}
+
+.r-1plcrui {
+  vertical-align: text-bottom;
+}
+
+.r-1xvli5t {
+  height: 1.25em;
+}
+
+.r-yyyyoo {
+  fill: currentcolor;
+}
+
+.r-dnmrzs {
+  max-width: 100%;
+}
+
+.r-4qtqp9 {
+  display: inline-block;
+}
+
+.r-1mf7evn {
+  margin-right: 20px;
+}
+
+.r-1x6tx0e {
+  margin-left: -5px;
+}
+
+.r-1f6r7vd {
+  margin-left: 5px;
+}
+
+.css-bfa6kz {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.r-1wbh5a2 {
+  flex-shrink: 1;
+}
+
+.r-ad9z0x {
+  line-height: 1.3125;
+}
