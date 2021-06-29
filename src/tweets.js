@@ -78,8 +78,16 @@ const phraseTuples = [
   ]
 ];
 
-const TWEET_STRUCTURE =
-  "${0} and ${1} because ${2}. ${3}, ${4}. That sounds like fun.";
+const finishers = [
+  "And I don't know why.",
+  "You wouldn't understand.",
+  "I can't believe she left me.",
+  "I no longer care.",
+  "I'm basically done.",
+  "That sounds like fun."
+];
+
+const TWEET_STRUCTURE = "${0} and ${1} because ${2}. ${3}, ${4}. ${5}";
 
 export function generateTweet() {
   const regex = /([^\.] )([A-Z])(\w)/g;
@@ -92,11 +100,13 @@ export function generateTweet() {
     acc = acc.replace("${" + i + "}", phrase);
 
     return acc;
-  }, TWEET_STRUCTURE);
+  }, TWEET_STRUCTURE + "");
 
-  return phrase.replace(regex, function (m, p1, p2, p3) {
-    return p1 + p2.toLowerCase() + p3;
-  });
+  return phrase
+    .replace("${5}", _shuffle(finishers)[0])
+    .replace(regex, function (m, p1, p2, p3) {
+      return p1 + p2.toLowerCase() + p3;
+    });
 }
 
 export const OG_TWEET =
