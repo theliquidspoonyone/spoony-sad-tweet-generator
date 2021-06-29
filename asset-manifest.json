@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/spoony-sad-tweet-generator/static/css/main.6271a61f.chunk.css",
-    "main.js": "/spoony-sad-tweet-generator/static/js/main.41ef4085.chunk.js",
-    "main.js.map": "/spoony-sad-tweet-generator/static/js/main.41ef4085.chunk.js.map",
+    "main.css": "/spoony-sad-tweet-generator/static/css/main.faf3d927.chunk.css",
+    "main.js": "/spoony-sad-tweet-generator/static/js/main.e75a3027.chunk.js",
+    "main.js.map": "/spoony-sad-tweet-generator/static/js/main.e75a3027.chunk.js.map",
     "runtime-main.js": "/spoony-sad-tweet-generator/static/js/runtime-main.d20b79b4.js",
     "runtime-main.js.map": "/spoony-sad-tweet-generator/static/js/runtime-main.d20b79b4.js.map",
-    "static/js/2.5eb106fd.chunk.js": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js",
-    "static/js/2.5eb106fd.chunk.js.map": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js.map",
+    "static/js/2.e29ed531.chunk.js": "/spoony-sad-tweet-generator/static/js/2.e29ed531.chunk.js",
+    "static/js/2.e29ed531.chunk.js.map": "/spoony-sad-tweet-generator/static/js/2.e29ed531.chunk.js.map",
     "index.html": "/spoony-sad-tweet-generator/index.html",
-    "precache-manifest.5963d83cf9d86335d431971536f5f5aa.js": "/spoony-sad-tweet-generator/precache-manifest.5963d83cf9d86335d431971536f5f5aa.js",
+    "precache-manifest.bf408c153bd2876ce9b315f433d8061b.js": "/spoony-sad-tweet-generator/precache-manifest.bf408c153bd2876ce9b315f433d8061b.js",
     "service-worker.js": "/spoony-sad-tweet-generator/service-worker.js",
-    "static/css/main.6271a61f.chunk.css.map": "/spoony-sad-tweet-generator/static/css/main.6271a61f.chunk.css.map",
-    "static/js/2.5eb106fd.chunk.js.LICENSE.txt": "/spoony-sad-tweet-generator/static/js/2.5eb106fd.chunk.js.LICENSE.txt"
+    "static/css/main.faf3d927.chunk.css.map": "/spoony-sad-tweet-generator/static/css/main.faf3d927.chunk.css.map",
+    "static/js/2.e29ed531.chunk.js.LICENSE.txt": "/spoony-sad-tweet-generator/static/js/2.e29ed531.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d20b79b4.js",
-    "static/js/2.5eb106fd.chunk.js",
-    "static/css/main.6271a61f.chunk.css",
-    "static/js/main.41ef4085.chunk.js"
+    "static/js/2.e29ed531.chunk.js",
+    "static/css/main.faf3d927.chunk.css",
+    "static/js/main.e75a3027.chunk.js"
   ]
 }
